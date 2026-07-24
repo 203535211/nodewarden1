@@ -56,13 +56,8 @@ small {
 }
 
 ::selection {
-  background: var(--primary);
-  color: #ffffff;
-}
-
-::-moz-selection {
-  background: var(--primary);
-  color: #ffffff;
+  background: color-mix(in srgb, var(--primary) 20%, transparent);
+  color: var(--text);
 }
 
 :focus-visible {
